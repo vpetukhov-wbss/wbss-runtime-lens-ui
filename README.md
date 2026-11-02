@@ -19,3 +19,7 @@ Angular, Nebular (proposed), Apache ECharts. The API is maintained separately; t
 - [Contribution guide](CONTRIBUTING.md)
 
 Core observability comes first. EF Core/Dapper analysis, dependency inventory and profiling are optional extensions. All current design data is fictional. A public source repository does not imply a public hosted service or public Figma access.
+
+## Claude Code
+
+Repository-specific instructions are in [CLAUDE.md](CLAUDE.md). See the [setup guide](docs/claude-setup.md) for workflows, provenance and validation.

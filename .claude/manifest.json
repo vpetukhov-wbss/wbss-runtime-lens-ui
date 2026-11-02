@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "product": "WBSS RuntimeLens",
+  "profile": "typescript,angular",
+  "status": "Documentation-only application; Claude repository setup installed",
+  "upstream": {
+    "repository": "https://github.com/vpetukhov-wbss/ai-engineering-setups",
+    "revision": "f5c3583f91383240edf3710fc7f1168b7b11dfa7",
+    "files": [
+      "setups/angular/.claude/skills/angular-feature/SKILL.md",
+      "setups/angular/.claude/skills/angular-api-integration/SKILL.md",
+      "setups/angular/.claude/skills/angular-accessibility/SKILL.md",
+      "setups/angular/knowledge/ANGULAR_PLAYBOOK.md",
+      "setups/angular/knowledge/SOURCES.md",
+      "LICENSE"
+    ]
+  },
+  "foundation_skill": "build-claude-engineering-standards",
+  "scope_examples": {
+    ".claude/rules/frontend/angular.md": [
+      "src/app/features/overview/overview.ts",
+      "src/app/features/overview/overview.html",
+      "src/main.ts"
+    ],
+    ".claude/rules/frontend/typescript.md": [
+      "src/app/contracts/trace.ts",
+      "e2e/investigation.spec.ts"
+    ]
+  }
+}
